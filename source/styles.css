@@ -1,0 +1,66 @@
+html {
+    background-color: #34439B;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    font-size: 5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2B2C33;
+    width: 70%;
+    margin: 5vh auto;
+    padding: 10px;
+    border-radius: 25px;
+    min-height: 25vh;
+}
+
+input {
+    display: block;
+    margin: 2.5vh auto;
+    width: 45%;
+    height: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 1vh 0;
+    width: 45%;
+}
+
+button {
+    width: 40%;
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#results-div {
+    display: none;
+    margin: 2vh 0;
+    border: 5px solid white;
+    background-color: #212227;
+    padding: 10px;
+}
+
+#results-div p {
+    font-size: 2rem;
+    color: azure;
+}
+
+.obs {
+    background-color: azure;
+    margin: 3vh 0;
+    width: 30%;
+    border-radius: 10PX;
+    text-align: center;
+}
